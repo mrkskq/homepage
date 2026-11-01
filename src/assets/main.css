@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Titillium Web', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Orbitron Variable', ui-sans-serif, sans-serif;
+}
+
+@layer base {
+  html {
+    scrollbar-color: #e10600 #0e0e12;
+    scrollbar-width: thin;
+    background-color: #0e0e12;
+  }
+
+  html,
+  body {
+    font-family: 'Titillium Web', ui-sans-serif, system-ui, sans-serif;
+  }
+}
